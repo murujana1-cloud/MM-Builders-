@@ -1,3 +1,29 @@
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+    gap:15px;
+    width:100%;
+}
+.hero{
+    background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url("image1.jpg");
+    background-size:cover;
+    background-position:center;
+    width:100%;
+    min-height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    max-width: 100%;
+}
 .navbar a.active{
     color:#FFD700;
 }*{
